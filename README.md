@@ -44,13 +44,13 @@ The app allows users to **sign up**, **log in**, and access protected routes. De
 
 ## Environment Variables
 
-**Backend (.env)**
-MONGODB_URI= your-mongodb-connection-string
-PORT= 5000
-JWT_SECRET= your-jwt-secret
+**Backend (.env):**
+- MONGODB_URI= your-mongodb-connection-string
+- PORT= 5000
+- JWT_SECRET= your-jwt-secret
 
-**Frontend (.env)**
-REACT_APP_API_URL= your backend api url
+**Frontend (.env):**
+- REACT_APP_API_URL= your backend api url
 
 ---
 
