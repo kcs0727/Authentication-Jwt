@@ -22,7 +22,7 @@ export default function Signup(){
         e.preventDefault();
 
         try{
-            const url=`${apiUrl}/products`;
+            const url=`${apiUrl}/signup`;
             const response= await fetch(url,{
                 method:"POST",
                 headers:{'Content-Type': 'application/json'},
