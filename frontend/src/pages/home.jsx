@@ -2,6 +2,7 @@ import { useState } from "react"
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
+const apiUrl = import.meta.env.VITE_API_URL
 
 
 export default function Home({ setisauth }) {
@@ -19,7 +20,7 @@ export default function Home({ setisauth }) {
     const fetchdata = async () => {
         try {
             const token = localStorage.getItem("token");
-            const url = "http://localhost:5000/products";
+            const url =`${apiUrl}/products`;
             const response = await fetch(url, {
                 headers: { 'Authorization': `Bearer ${token}` }
             })

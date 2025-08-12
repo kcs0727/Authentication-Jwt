@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Link, useNavigate,  } from "react-router-dom"
 import { toast, ToastContainer } from 'react-toastify';
+const apiUrl = import.meta.env.VITE_API_URL
+
 
 export default function Signup(){
 
@@ -20,7 +22,7 @@ export default function Signup(){
         e.preventDefault();
 
         try{
-            const url="http://localhost:5000/signup";
+            const url=`${apiUrl}/products`;
             const response= await fetch(url,{
                 method:"POST",
                 headers:{'Content-Type': 'application/json'},

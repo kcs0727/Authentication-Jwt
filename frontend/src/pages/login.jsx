@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link, useNavigate,  } from "react-router-dom"
 import { toast, ToastContainer } from 'react-toastify';
+const apiUrl = import.meta.env.VITE_API_URL
 
 
 export default function Login({setisauth}){
@@ -20,7 +21,7 @@ export default function Login({setisauth}){
         e.preventDefault();
 
         try{
-            const url="http://localhost:5000/login";
+            const url=`${apiUrl}/login`;
             const response= await fetch(url,{
                 method:"POST",
                 headers:{'Content-Type': 'application/json'},
