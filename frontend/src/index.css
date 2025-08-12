@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base{
+  input{
+    @apply border-1 w-full px-1 outline-none mt-1 h-8;
+  }
+}
