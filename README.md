@@ -6,7 +6,7 @@ The app allows users to **sign up**, **log in**, and access protected routes. De
 ---
 
 ## Live Demo
-[Live Website](https://authentication-jwt-ui.vercel.app/)  
+[https://authentication-jwt-ui.vercel.app/](https://authentication-jwt-ui.vercel.app/)  
 
 ---
 
@@ -57,7 +57,7 @@ The app allows users to **sign up**, **log in**, and access protected routes. De
 ## Local Development
 
 1.**Clone Repository**
-- git clone https://github.com/your-username/your-repo.git
+- git clone [https://github.com/kcs0727/Authentication-Jwt.git](https://github.com/kcs0727/Authentication-Jwt.git)
 
 2️.**Install Dependencies**
 - cd backend && npm install
